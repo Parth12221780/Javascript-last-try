@@ -14,5 +14,7 @@ accountPassword = "1234"
 accountCity = "New York"
 
 // do not use var now a days
+// because of issue in block scope and functional scope
+
 
 console.table({ accountId, accountEmail, accountPassword, accountCity })
